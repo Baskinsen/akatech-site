@@ -3,9 +3,9 @@ import teamHero from '../images/team/pexels-matheus-natan-2976970 2.png'
 import seye from '../images/team/Avi.png'
 import Avi2 from '../images/team/Avi2.png'
 import Avi3 from '../images/team/Avi3.png'
-import { gsap } from 'gsap'
-import ScrollTrigger from 'gsap/ScrollTrigger'
-import { useRef, useLayoutEffect } from 'react'
+// import { gsap } from 'gsap'
+// import ScrollTrigger from 'gsap/ScrollTrigger'
+import { useRef } from 'react'
 
 const Teams = () => {
     const serviceRef = useRef(), serviceHeading = useRef()
