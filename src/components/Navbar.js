@@ -1,9 +1,8 @@
 import { NavLink, Link } from 'react-router-dom'
 import logo from '../images/Logo.png'
 import menu from '../images/menu.png'
-import close from '../images/icon-menu-close.svg'
 import { gsap } from 'gsap'
-import { useRef, useLayoutEffect, useState } from 'react'
+import { useRef,useState } from 'react'
 const Navbar = () => {
     const Menu = useRef(null)
     const links = useRef(null)
