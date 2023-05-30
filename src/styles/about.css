@@ -1,0 +1,170 @@
+.about-hero {
+    position: relative;
+    padding: 30px 30px 100px 30px;
+    background-color: #171614;
+    opacity: 1;
+}
+
+.about-hero img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    z-index: 0;
+}
+
+.about-hero h1 {
+    position: relative;
+    z-index: 1;
+    color: #FFFFFF;
+    font-size: 64px;
+    font-weight: 700;
+    opacity: 1;
+    text-transform: uppercase;
+}
+
+.about-hero p {
+    position: relative;
+    z-index: 1;
+    color: #EFC040;
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 1;
+}
+
+.about-main {
+    padding: 50px;
+}
+
+.about-main span {
+    color: #347723;
+}
+
+.about-main > p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #171614;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.about-main a {
+    text-decoration: none;
+    background-color: #26491D;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.about-main a span {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.mission-vision {
+    margin: 0;
+    margin-top: 100px;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+}
+
+.mission-vision li:has(p) {
+    text-align: left;
+    background-color: #FAFAFA;
+    padding: 150px 20px 150px 20px;
+}
+
+.mission-vision>li>img {
+    width: 100%;
+    height: 100%;
+    margin: auto 0;
+}
+
+.mission-vision>li>h1 {
+    color: #347723;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    padding: 10px;
+    border-left: 5px solid #EFC040;
+}
+
+.mission-vision>li>p {
+    color: #171614;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.values {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 20px;
+    display: block;
+}
+
+.values li:has(p) {
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.values li p {
+    margin: 0;
+    padding: 0;
+}
+
+.values h3 {
+    color: #347723;
+}
+.values p {
+    color: #171614;
+}
+
+
+@media only screen and (width<= 769px) {
+    .about-hero p{
+        font-size: 14px;
+    }
+
+    .mission-vision {
+        grid-template-columns: none;
+        grid-template-rows: auto;
+        place-items: center;
+        gap: 30px;
+    }
+
+    .mission-vision>li{
+        padding: 0;
+    }
+
+    .mission-vision>li>h1 {
+        font-size: 28px;
+    }
+
+    .mission-vision li:has(p) {
+        padding: 20px 20px;
+    }
+
+    .values li p  {
+        font-size: 14px;
+    }
+
+    .values h3 {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (width<=376px) {
+    .about-hero h1 {
+        font-size: 30px;
+    }
+} 
