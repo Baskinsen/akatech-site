@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.afd99450.css",
+    "main.js": "/static/js/main.cace9f3e.js",
+    "static/media/pexels-zukiman-mohamad-87236 1.png": "/static/media/pexels-zukiman-mohamad-87236 1.220a3a64dfd2d9c389dc.png",
+    "static/media/pexels-aart-prikker-15085029 1.png": "/static/media/pexels-aart-prikker-15085029 1.c952a33d52f556789e5f.png",
+    "static/media/pexels-janrune-smenes-reite-3197704 2.png": "/static/media/pexels-janrune-smenes-reite-3197704 2.600f60ae88939dae3d57.png",
+    "static/media/pexels-matheus-natan-2976970 2.png": "/static/media/pexels-matheus-natan-2976970 2.f193cf48c372bc2024a2.png",
+    "static/media/pexels-pixabay-235615 1.png": "/static/media/pexels-pixabay-235615 1.ca090abb849c808d0c0a.png",
+    "static/media/pexels-janrune-smenes-reite-3197704 1.png": "/static/media/pexels-janrune-smenes-reite-3197704 1.9e33bae4bb5e399a7980.png",
+    "static/media/pexels-janrune-smenes-reite-3207536 1.png": "/static/media/pexels-janrune-smenes-reite-3207536 1.723636b4727001a3817f.png",
+    "static/media/integrated filtration system 1.png": "/static/media/integrated filtration system 1.3061c76541eefb09a49f.png",
+    "static/media/pexels-sora-shimazaki-5668879 1.png": "/static/media/pexels-sora-shimazaki-5668879 1.8cc6d95cf695ad82aaa3.png",
+    "static/media/jeremy-bishop-vGjGvtSfys4-unsplash 1 (1).png": "/static/media/jeremy-bishop-vGjGvtSfys4-unsplash 1 (1).13fb072845c17e572eb1.png",
+    "static/media/pexels-pixabay-162568 1.png": "/static/media/pexels-pixabay-162568 1.8c734249cfe2d8fa84e6.png",
+    "static/media/cytonn-photography-vWchRczcQwM-unsplash 1.png": "/static/media/cytonn-photography-vWchRczcQwM-unsplash 1.50ae9bebaf2d5096607e.png",
+    "static/media/kenny-eliason-FoiZoPtxSyA-unsplash 1.png": "/static/media/kenny-eliason-FoiZoPtxSyA-unsplash 1.f46b26a5ff781e559d2d.png",
+    "static/media/Avi.png": "/static/media/Avi.198bb5c885d25a5a4b93.png",
+    "static/media/Avi3.png": "/static/media/Avi3.61f4eb0e0a3d996f0d0f.png",
+    "static/media/Avi2.png": "/static/media/Avi2.a7eb52d7399045ec3f6a.png",
+    "index.html": "/index.html",
+    "main.afd99450.css.map": "/static/css/main.afd99450.css.map",
+    "main.cace9f3e.js.map": "/static/js/main.cace9f3e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.afd99450.css",
+    "static/js/main.cace9f3e.js"
+  ]
+}
