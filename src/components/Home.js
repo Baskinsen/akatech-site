@@ -58,8 +58,8 @@ const Home = () => {
                     gsap.from(info, { y: 20, opacity: 0 })
                     gsap.to(info, {scrollTrigger: { trigger:info, toggleActions: "restart none none none" }, y:0, opacity: 1, duration:1},"<+=100%") 
                 })
-                gsap.to(years.current, {scrollTrigger: {trigger: years.current}, duration:1,textContent: "+=35+",roundProps: "textContent",ease: "none"})
-                gsap.to(client.current, {scrollTrigger: {trigger: client.current},duration:1,textContent: "+=54",roundProps: "textContent",ease: "none"})
+                gsap.to(years.current, {scrollTrigger: {trigger: years.current}, duration:1,textContent: "+=35+",roundProps: "textContent"})
+                gsap.to(client.current, {scrollTrigger: {trigger: client.current},duration:1,textContent: "+=54",roundProps: "textContent"})
                 gsap.to(jobs.current, {scrollTrigger:{trigger: jobs.current},duration:1,textContent: "+=54",roundProps: "textContent",ease: "none"})
                 gsap.to(carousel.current, {x: Infinity, duration: Infinity})
             

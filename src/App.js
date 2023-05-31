@@ -5,6 +5,9 @@ import About from './components/About'
 import Teams from './components/Teams'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import {gsap} from 'gsap'
+import ScrollTrigger from 'gsap/ScrollTrigger' 
+gsap.registerPlugin(ScrollTrigger)
 
 function App() {
     return (
