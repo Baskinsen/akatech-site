@@ -6,48 +6,6 @@
     background-color: grey;
 }
 
-.arrow1 {
-    position: absolute;
-    top: 30%;
-    left: 85%;
-    color: #FAFAFA;
-    animation-name: arrow1;
-    animation-duration: 2s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-}
-
-.arrow2 {
-    position: absolute;
-    top: 30%;
-    left: 85%;
-    color: #FAFAFA;
-    animation-name: arrow2;
-    animation-duration: 2s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-}
-
-@keyframes arrow1 {
-    0% {
-        transform: translate(0px);
-    } 
-
-    50% {
-        transform: translate(8px);
-    }
-
-}
-
-@keyframes arrow2 {
-    0% {
-        transform: translateY(0px);
-    } 
-
-    50% {
-        transform: translateY(-5px);
-    }
-}
 .hero img {
     position: absolute;
     top: 0;
@@ -343,5 +301,66 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 50px;
+    }
+}
+
+
+@media only screen and (width>=2560px) {
+    .hero {
+        padding: 29dvh 100px;
+        padding-right: 0;
+    }
+
+    .hero h1 {
+        font-size: 100px;
+    }
+
+    .hero p {
+        font-size: 40px;
+    }
+
+    .hero-link {
+        font-size: 40px;
+    }
+
+    .info {
+        margin: 100px 100px;
+    }
+
+    .info h1 {
+        font-size: 80px;
+    }
+
+    .info p {
+        font-size: 40px;
+    }
+
+    .offers {
+        padding: 100px 100px;
+    }
+
+    .offers h1 {
+        font-size: 80px;
+    }
+
+    .offers-container div>div>span {
+        font-size: 40px;
+    }
+
+    .offers-container div a {
+        font-size: 40px;
+        left: 35%;
+    }
+
+    .contact {
+        font-size: 40px;
+    }
+
+    .contact a{
+        font-size: 40px;
+    }
+
+    .partners h1 {
+        font-size: 40px;
     }
 }

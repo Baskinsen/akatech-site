@@ -72,7 +72,7 @@ const Home = () => {
                 <img src={hero} alt="hero-img"  />
                 <h1 className='hero-1'>Akatech Energy</h1>
                 <p className='hero-2'>Lorem ipsum dolor sit amet consectetur. Arcu blandit sed adipiscing non fermentum libero euismod nunc. Enim ut turpis sed et viverra faucibus pellentesque sit varius. Elementum amet eget dolor nisl.</p>
-                <Link to="/Services" className='hero-link'> Explore  Services <span className='arrow1'>&rarr;</span></Link>
+                <Link to="/Services" className='hero-link'> Explore  Services</Link>
             </div>
             <div className='info'>
                 <h1  ref={heading1}>Who We Are</h1>
@@ -115,7 +115,7 @@ Our mission is to be the go-to provider of innovative and reliable oil and gas s
             <div className='contact'>
                 <img src={contactImg} alt="contact" />
                 <h1>Need the Best Service Delivery<br/> on your next project?</h1>
-                <Link to="#"> Talk To Us <span className='arrow2'>&#8599;</span></Link>
+                <Link to="#"> Talk To Us</Link>
             </div>
             <div className='partners'>
                 <h1>Here are some of technical partners that we work with</h1>
