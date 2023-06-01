@@ -199,3 +199,42 @@
   }
 
 }
+
+
+@media only screen and (width>=2560px) {
+  .navbar a  {
+    font-size: 32px;
+  }
+
+  .footerlinks>div>img {
+    width: 500px;
+  }
+
+  .footerlinks>div>p {
+    font-size: 30px;
+  }
+
+  .footerlinks>div>h1 {
+    font-size: 50px;
+  }
+
+  .footerlinks>div>ul>li>a {
+    font-size: 40px;
+  }
+
+  .contacts li {
+    font-size: 40px;
+  }
+  
+  .contacts li span {
+    font-size: 30px;
+  }
+
+  .copyright> div {
+    font-size: 30px;
+  }
+
+  .copyright img {
+    width: 50px;
+  }
+}

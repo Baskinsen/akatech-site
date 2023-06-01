@@ -1,6 +1,6 @@
 .about-hero {
     position: relative;
-    padding: 30px 30px 100px 30px;
+    padding: 30px 100px 100px 100px;
     background-color: #171614;
     opacity: 1;
 }
@@ -35,7 +35,8 @@
 }
 
 .about-main {
-    padding: 50px;
+    padding: 50px 100px 100px 100px;
+    display: grid;
 }
 
 .about-main span {
@@ -58,6 +59,7 @@
     font-weight: 500;
     padding: 10px 20px;
     border-radius: 10px;
+    justify-self: center;
 }
 
 .about-main a span {
@@ -73,6 +75,8 @@
     list-style: none;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+    row-gap: 10px;
     place-items: center;
 }
 
@@ -86,7 +90,10 @@
     width: 100%;
     height: 100%;
     margin: auto 0;
+    box-shadow: 15px 15px 0 0 #EFC040; 
+    border-radius: 30px;
 }
+
 
 .mission-vision>li>h1 {
     color: #347723;
@@ -168,3 +175,58 @@
         font-size: 30px;
     }
 } 
+
+@media only screen and (width>=2560px) {
+    .about-hero p {
+        font-size: 30px;
+    }
+
+    .about-main p {
+        font-size: 35px;
+    }
+
+    .about-main a {
+        font-size: 30px;
+    }
+
+    .mission-vision {
+        place-items: normal start;
+    }
+
+    .mission-vision>li>img {
+        height: 1000px;
+
+    }
+
+    .mission-vision li:has(img) {
+        display: flex;
+        justify-content: center;
+    }
+
+    .mission-vision li:has(p) {
+        padding: 200px 20px 200px 20px;
+
+    }
+
+    .mission-vision>li>h1 {
+        font-size: 60px;
+    }
+
+    .mission-vision>li>p {
+        font-size: 40px;
+    }
+
+    .values li:has(p) {
+        margin: 0;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    .values li p {
+        font-size: 35px;
+    }
+
+    .values h3 {
+        font-size: 40px;
+    }
+}

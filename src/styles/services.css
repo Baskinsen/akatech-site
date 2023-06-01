@@ -1,7 +1,7 @@
 
 .services-hero {
     position: relative;
-    padding: 30px 30px 100px 30px;
+    padding: 30px 100px 100px 100px;
     background-color: #171614;
     opacity: 1;
 }
@@ -36,7 +36,7 @@
 }
 
 .services-main {
-    padding: 50px;
+    padding: 100px;
 }
 
 .services-main span {
@@ -212,6 +212,14 @@
 }
 
 @media only screen and (width<= 426px) {
+    .services-main {
+        padding: 20px;
+    }
+
+    .services-hero {
+        padding: 50px 20px 100px 20px;
+    }
+
     .contact-form h1 {
         font-size: 24px;
         height: 50px;
@@ -219,10 +227,68 @@
 
     
     .contact-form form input,textarea {
-        width: 300px;
+        max-width: 350px;
     }
 
     .contact-form form textarea {
-        width: 300px;
+        max-width: 350px;
+    }
+
+    .contact-form form button {
+        max-width: 390px;
+    }
+}
+
+@media screen and (width<= 376px) {
+    .contact-form form input,textarea {
+        max-width: 300px;
+    }
+
+    .contact-form form textarea {
+        max-width: 300px;
+    }
+
+    .contact-form form button {
+        max-width: 350px;
+    }
+}
+
+@media only screen and (width>=2560px) {
+    .services-hero h1 {
+        font-size: 100px;
+    }
+
+    .services-hero p {
+        font-size: 40px;
+    }
+
+    .services-main p {
+        font-size: 40px;
+    }
+
+    .services-main>ul>li>h1 {
+        font-size: 50px;
+    }
+
+    .services-main>ul>li>p {
+        font-size: 40px;
+    }
+
+    .contact-form form  {
+        overflow: hidden;
+    }
+
+    .contact-form form input{
+        width: 96%;
+        font-size: 30px;
+    }
+
+    .contact-form form textarea  {
+        width: 96%;
+        font-size: 30px;
+    }
+
+    .contact-form form button {
+        font-size: 30px;
     }
 }

@@ -217,3 +217,30 @@
         height: 100%;
     }
 }
+
+
+@media only screen and (width>=2560px) {
+    .teamHero h1 {
+        font-size: 100px;
+    }
+
+    .teamHero p {
+        font-size: 40px;
+    }
+
+    .teams-main p {
+        font-size: 40px;
+    }
+
+    .team-members> div >p  {
+        font-size: 35px;
+    }
+
+    .team-members div h1 {
+        font-size: 40px;
+    }
+
+    .team-members div h1 span {
+        font-size: 30px;
+    }
+  }
