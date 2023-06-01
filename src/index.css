@@ -202,8 +202,13 @@
 
 
 @media only screen and (width>=2560px) {
+  .navbar img {
+    width: 500px;
+  }
+
+
   .navbar a  {
-    font-size: 32px;
+    font-size: 40px;
   }
 
   .footerlinks>div>img {
