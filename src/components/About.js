@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom'
 
 const About = () => {
     console.log(ScrollTrigger)
-    gsap.registerPlugin(window.ScrollTrigger)
+    gsap.registerPlugin(ScrollTrigger)
     const aboutRef = useRef()
     const aboutheading = useRef()
     const heading1 = useRef()
