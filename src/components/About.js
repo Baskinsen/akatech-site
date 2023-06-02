@@ -9,6 +9,8 @@ import { useRef, useLayoutEffect } from 'react'
 import { Link } from 'react-router-dom'
 
 const About = () => {
+    console.log(ScrollTrigger)
+    gsap.registerPlugin(ScrollTrigger)
     const aboutRef = useRef()
     const aboutheading = useRef()
     const heading1 = useRef()
@@ -18,7 +20,6 @@ const About = () => {
         const statsInfo = document.querySelectorAll('.stats-info')
             let ctx = gsap.context(() => {
             const tx = gsap.timeline()
-            gsap.registerPlugin(ScrollTrigger)
             tx.from(aboutRef.current, {opacity: 0.5,scale: 0.99})
             tx.to(aboutRef.current, {opacity: 1,duration: 1.5,scale: 1})
             tx.from('.about-1', { x: -100, opacity:0},"<+=50%")
@@ -29,7 +30,7 @@ const About = () => {
             gsap.to(aboutheading.current, { scrollTrigger: { trigger:aboutheading.current, toggleActions: "restart none none none" }, x: 0, opacity: 1, duration: .5})   
                 gsap.from(heading1.current, { x: -100, opacity: 0})
                 gsap.to(heading1.current, { scrollTrigger: { trigger:heading1.current, toggleActions: "restart none none none" }, x: 0, opacity: 1, duration: .5})   
-            inforight.forEach((info) => {
+                inforight.forEach((info) => {
                 gsap.from(info, { x: 100,y: 20,opacity: 0 })
                 gsap.to(info, {scrollTrigger: { trigger:info }, x:0, y:0, opacity: 1, duration:.5}) 
             })
